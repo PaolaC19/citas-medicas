@@ -26,9 +26,3 @@ Usuarios demo: `laura@correo.com / 123456` · `carlos@correo.com / abcdef`
 | GET | `/appointments?userId=` | Listar citas | 500 / red |
 | PATCH | `/appointments/:id` | Cancelar (`status`) o reagendar (`date`,`time`) | 404, 409 |
 
-## Guion sugerido para el video (5-7 min)
-1. Presentación y objetivo (20 s). 2. Login: errores de validación, credenciales incorrectas (401), login correcto.
-3. Panel: carga, lista, filtro de canceladas. 4. Cancelar: confirmación y actualización inmediata.
-5. Reagendar: fecha pasada (validación) y horario ocupado (409; usa la cita 3 de Laura -> 2026-10-05 10:00).
-6. Recargar la página: la sesión persiste. Apagar la API: mensaje de error y "Reintentar".
-7. Recorrido del código: carpetas, `apiClient.js`, reducer, `ProtectedRoute` (1-2 min). 8. Cierre.
