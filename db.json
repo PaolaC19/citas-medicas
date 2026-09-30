@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Laura Gómez",
+      "email": "laura@correo.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Ruiz",
+      "email": "carlos@correo.com",
+      "password": "abcdef"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "doctor": "Dra. Ana Torres",
+      "specialty": "Cardiología",
+      "date": "2026-10-05",
+      "time": "09:00",
+      "status": "cancelada"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "doctor": "Dr. Luis Mora",
+      "specialty": "Dermatología",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "status": "programada"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "doctor": "Dra. Ana Torres",
+      "specialty": "Cardiología",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "status": "programada"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "doctor": "Dr. Pablo Ríos",
+      "specialty": "Medicina general",
+      "date": "2026-08-15",
+      "time": "08:00",
+      "status": "cancelada"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "doctor": "Dra. Marta Peña",
+      "specialty": "Pediatría",
+      "date": "2026-10-08",
+      "time": "11:00",
+      "status": "programada"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "doctor": "Dra. Ana Torres",
+      "specialty": "Cardiología",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "status": "programada"
+    }
+  ]
+}
